@@ -4,7 +4,7 @@
 Esta plataforma permite a las organizaciones gestionar de manera estructurada y eficiente la implementación de la norma **ISO 27001** para la gestión de seguridad de la información. ___???????
 
 
-## Product Backlog Inicial Completo
+## Product Backlog (Inicial) 
 
 Este documento describe el backlog inicial para la implementación de ISO 27001.
 
