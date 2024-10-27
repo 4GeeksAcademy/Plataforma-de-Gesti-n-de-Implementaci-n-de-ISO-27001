@@ -14,8 +14,8 @@ Este documento describe el backlog inicial para la implementación de ISO 27001.
 - Como **usuario nuevo**, quiero registrarme en la plataforma como Administrador con datos básicos (nombre, correo electrónico, contraseña y datos de la organización), para empezar a configurar el proyecto de ISO 27001.
 - Como **administrador**, quiero acceder a un panel de gestión de usuarios para registrar nuevos implementadores, auditores y visitantes, para que puedan colaborar en el proyecto.
 - Como **adminsitrador**, quiero asignar roles específicos (implementador, auditor, visitante) a los usuarios registrados, para controlar su acceso a la información de la plataforma.
-- Como **administrador**, quiero enviar invitaciones de registro a los nuevos usuarios (implementadores, auditores, visitantes) con un enlace de activación, para que puedan configurar sus cuentas y unirse al proyecto.
-- Como **usuario invitado**, quiero activar mi cuenta y establecer una contraseña, para poder acceder a la plataforma de forma segura y empezar a trabajar según mi rol asignado.
+- Como **administrador**, quiero enviar invitaciones de registro a los nuevos usuarios (implementadores, auditores, visitantes) con un enlace de activación?? ,(Quizas solo directo datos de ingreso: usuario y contraseña?) para que puedan configurar sus cuentas y unirse al proyecto.
+- Como **usuario invitado**, quiero (actualizar mi contraseña) de mi cuenta, para poder acceder a la plataforma de forma segura y empezar a trabajar según mi rol asignado.
 
 
 ## Sistema de Autenticación y Gestión de Permisos
@@ -24,7 +24,7 @@ Este documento describe el backlog inicial para la implementación de ISO 27001.
 - Como **administrador**, quiero gestionar los usuarios de la plataforma (agregar, editar, eliminar), para que solo personas autorizadas accedan a la plataforma.
 - Como **usuario** (administrador, implementador o auditor), quiero iniciar sesión de manera segura con autenticación JWT, para asegurar la protección de los datos.
 - Como **administrador**, quiero asignar roles específicos a cada usuario (implementador, auditor o visitante), para asegurar que solo tengan acceso a la información necesaria para su rol.
-- Como **implementador/auditor/visitante**, quiero poder restablecer mi contraseña en caso de olvido, para asegurar que siempre puedo acceder a la plataforma.
+- Como **implementador/auditor/visitante**, quiero poder restablecer mi contraseña en caso de olvido.
 
 
 ## Gestión de Proyectos y Tareas
@@ -34,15 +34,15 @@ Este documento describe el backlog inicial para la implementación de ISO 27001.
 - Como **implementador**, quiero dividir el proyecto en fases (planificación, evaluación de riesgos, implementación de controles, etc.), para estructurar el avance del proyecto.
 - Como **implementador**, quiero crear y asignar tareas dentro de cada fase, con plazos y prioridades, para asegurar que cada miembro sepa sus responsabilidades.
 - Como **implementador**, quiero visualizar un tablero de tareas donde pueda ver el estado de cada tarea (pendiente, en progreso, completada), para conocer el avance del proyecto.
-- Como **implementador**, quiero recibir notificaciones cuando una tarea esté próxima a vencer, para poder priorizar mi tiempo de forma efectiva.
+- Como **implementador**, quiero recibir notificaciones cuando una tarea esté próxima a vencer, para poder priorizar mi tiempo de forma efectiva??? Es aplicable?? Es útil??.
 
 ## Documentación de Políticas y Procedimientos
 ### Objetivo: Centralizar la documentación de políticas y procedimientos para facilitar la gestión y actualización.
 
-- Como **implementador**, quiero subir documentos de políticas y procedimientos relacionados con la ISO 27001, para tener toda la documentación en un solo lugar.
-- Como **administrador**, quiero editar los documentos directamente en la plataforma o reemplazarlos, para mantenerlos actualizados conforme avanzamos en la implementación.
-- Como **auditor**, quiero ver el historial de cambios de los documentos, para asegurarme de que las políticas están actualizadas y cumplir con los requisitos de ISO 27001.
-- Como **auditor**, quiero marcar documentos como revisados para confirmar que cumplen con los estándares requeridos en la auditoría interna.
+- Como **implementador**, quiero subir documentos de políticas y procedimientos relacionados con la ISO 27001 y de la empresa, para tener toda la documentación en un solo lugar.
+- Como **administrador**, quiero agregar o elimiar los documentos directamente en la plataforma?? API DRIVE (es alcanzable?), para mantenerlos actualizados conforme avanzamos en la implementación.
+- Como **auditor**, quiero marcar documentos como favoritos ????
+
 
 ## Evaluación y Gestión de Riesgos
 ### Objetivo: Evaluar y gestionar los riesgos de activos clave para cumplir con los requisitos de ISO 27001.
@@ -51,12 +51,12 @@ Este documento describe el backlog inicial para la implementación de ISO 27001.
 - Como **implementador**, quiero evaluar el riesgo de cada activo (probabilidad e impacto), para priorizar los controles y acciones de mitigación.
 - Como **implementador**, quiero asignar controles de seguridad a cada riesgo, para reducir o eliminar el riesgo asociado.
 - Como **implementador**, quiero visualizar un reporte de riesgos pendientes y mitigados, para hacer seguimiento de los controles que han sido implementados.
-- Como **auditor**, quiero validar los riesgos y controles aplicados, para asegurarme de que se cumplen los requisitos de ISO 27001.
+- Como **auditor**, quiero validar los riesgos y controles aplicados, para asegurarme de que se cumplen los requisitos de ISO 27001.  --> **sugerencia de Chat GPT**  
 
 ## Matriz de Cumplimiento de Controles
 ### Objetivo: Gestionar y monitorear el cumplimiento de los controles de seguridad de ISO 27001.
 
-- Como **implementador**, quiero ver una lista de los 114 controles de seguridad de ISO 27001 (Anexo A), para poder evaluar el cumplimiento de cada uno.
+- Como **implementador**, quiero ver una lista de los **NNN** controles de seguridad de ISO 27001 (Anexo A?), para poder evaluar el cumplimiento de cada uno.
 - Como **implementador**, quiero marcar el estado de cada control (pendiente, en implementación, cumplido), para tener un seguimiento claro de cada control.
 - Como **implementador**, quiero agregar observaciones o notas en cada control, para detallar el trabajo realizado y cualquier excepción.
 - Como **auditor**, quiero ver el estado de los controles implementados, para verificar el cumplimiento y hacer recomendaciones de mejora.
@@ -64,10 +64,10 @@ Este documento describe el backlog inicial para la implementación de ISO 27001.
 ## Reportes y Auditoría Interna
 ### Objetivo: Generar reportes y llevar a cabo auditorías internas para el seguimiento y cumplimiento de ISO 27001.
 
-- Como **implementador**, quiero generar reportes de progreso en PDF o Excel, para tener una referencia visual de la implementación.
+- Como **implementador**, quiero generar reportes de progreso **graficas**, para tener una referencia visual de la implementación.
 - Como **auditor**, quiero realizar auditorías internas documentando hallazgos y observaciones en cada fase del proyecto, para validar el cumplimiento de ISO 27001.
 - Como **auditor**, quiero descargar un reporte detallado de controles y tareas completadas, para documentar el avance de la implementación y preparar informes para los auditores externos.
-- Como **administrador**, quiero generar reportes de cumplimiento y riesgos para presentar al equipo directivo y demostrar el avance de la implementación.
+- Como **administrador**, quiero generar reportes de cumplimiento y riesgos para presentar al equipo directivo y demostrar el avance de la implementación.    --> **Ultimos dos puntos sugerencia de Chat GPT**  
 
 
 ## Acceso para Visitante (Representante de Empresa)
